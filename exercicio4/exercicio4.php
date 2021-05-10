@@ -91,7 +91,7 @@
                             $mes = $_POST["mes"];
                             $ano = $_POST["ano"];
                             if ($mes == 1){
-                                $safadeza = $mes + ($ano/100) * (50-$dia);
+                                $safadeza = $mes + ($ano/1000) * (50-$dia);
                                 $anjo = 100 - $safadeza;
                                 echo  nl2br(" \n ");
                                 echo 'Seu grau de anjo é: '. $anjo;
