@@ -18,8 +18,8 @@
 <body>
     <form id="formulario" name="formulario" method="post">  
     <div class="form">
-        <h3> Digite a primeira letra do seu nome(em minisculo), </h3>
-        <h3> Em seguida, digite seu mês e dia de nascimento </h3>
+        <h3> Digite a primeira letra do seu nome. </h3>
+        <h3> Em seguida, digite seu mês e dia de nascimento. </h3>
 
 
         <input type="text" name="letra" id="letra">
@@ -63,7 +63,32 @@ $vetor1 = [
     "x" => "Própolis",
     "y" => "Kumbucha",
     "z" => "Peixe",
-
+    "A" => "água com limão",
+    "B" => "Bacon",
+    "C" => "Cúrcuma",
+    "D" => "Doce de leite",
+    "E" => "Azeite",
+    "F" => "Frango",
+    "G" => "Gengibre",
+    "H" => "Adoçante",
+    "I" => "Açucar",
+    "J" => "Jiló",
+    "K" => "Comida Japonesa",
+    "L" => "Leite",
+    "M" => "Macarrão",
+    "N" => "Nata",
+    "O" => "Ovo",
+    "P" => "Pizza",
+    "Q" => "Óleo de cooc",
+    "R" => "Rabanada",
+    "S" => "Suco detox",
+    "T" => "Sal rosa",
+    "U" => "Glutamina",
+    "V" => "Jiló",
+    "W" => "Peixe",
+    "X" => "Própolis",
+    "Y" => "Kumbucha",
+    "Z" => "Peixe",
 ];
 if ($_SERVER["REQUEST_METHOD"] === "POST") {
     if (empty($_POST["letra"])) {
