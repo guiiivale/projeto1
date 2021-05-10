@@ -1,12 +1,18 @@
 <html>
+<style>
+    .main{
+        text-align: center;
+    }
+    </style>
+<div class="main">
 <form method="GET">
 
     <input type="text" name="campo_cidade" id="campo_cidade" accept="text"> <br>
+    <br>
     <input type="submit">
 
 </form>
 
-</html>
 <?php
 $teste = "";
 const ID = "Uf5WPNaWeVytYPIYjvEWN";
@@ -28,3 +34,7 @@ include 'clima.php';}
 else
 echo 'Digite a cidade'
 ?>
+</div>
+</html>
+
+
