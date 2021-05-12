@@ -103,8 +103,6 @@
                                 for ($i=$mes; $i > 0 ; $i--) { 
                                     $somatario = $somatario + $i - 1;
                                 }       
-                                echo  nl2br(" \n ");
-                                echo $somatario;
                                 $safadeza = $somatario + ($ano/1000) * (50-$dia);
                                 $anjo = 100 - $safadeza;
                                 echo  nl2br(" \n ");
