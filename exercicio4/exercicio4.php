@@ -99,9 +99,12 @@
                                 echo 'Seu grau de safadeza é: '. $safadeza;
                             }
                             else{
-                                for ($i=0; $i <$mes ; $i++) { 
-                                    $somatario = $mes + $mes - 1;
+                                $somatario = $mes;
+                                for ($i=$mes; $i > 0 ; $i--) { 
+                                    $somatario = $somatario + $i - 1;
                                 }       
+                                echo  nl2br(" \n ");
+                                echo $somatario;
                                 $safadeza = $somatario + ($ano/1000) * (50-$dia);
                                 $anjo = 100 - $safadeza;
                                 echo  nl2br(" \n ");
